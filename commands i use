@@ -1,0 +1,10 @@
+show databases;
+use CSCTEST;
+show tables;
+select * from testone;
+alter table testone drop column gowtham;
+truncate testone;
+drop table testone;
+create table testone(s_no int primary key , name varchar(100),description varchar(200));
+insert into testone values (1,'hello','kbvbuvvuvhjhygbju');
+insert into testone values(2,"fjh","njgdg")
